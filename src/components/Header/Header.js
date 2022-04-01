@@ -6,6 +6,7 @@ const Header = () => {
     return (
         <div>
             <h2>Welcome to TShirt Mania!!!</h2>
+            {/* use nav tag to rape the Link for navigation */}
             <nav>
                 <Link to="/home">Home</Link>
                 <Link to="/orderreview">Order Review</Link>
